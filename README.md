@@ -35,8 +35,13 @@ Thomas Bates  00:00:00:00:00:00 {Notice *2* spaces after the username to display
   In the file, edit the following:
   
 $controller_user = "whoshere";  # Username you used
+
 $controller_password = "password"; #Password you used
+
 $controller_url = "https://192.168.1.5:8443"; #URL You use to connect to UniFi controller
+
 $site_id = "abc123"; # Site Code used to access users you want to monitor.  Get this by going to the site in UniFi and copying from the URL.
+
 $controller_version = "5.10.21.0";
+
 date_default_timezone_set('America/Phoenix'); # Timezone you want to use
